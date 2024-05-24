@@ -1,1 +1,114 @@
+from tkinter import *
+root=Tk()
+root.minsize(500,800)
+root.maxsize(500,800)
+def click(event):
+    global srcval
+    text= event.widget.cget("text")
+    if (text=="="):
+        pass
+    elif(text=="C"):
+        scrval.set("")
+        screen.update()
+    else:
+        scrval.set(scrval.get()+text)
+        screen.update()
+scrval= StringVar()
+scrval.set("")
+screen= Entry(root,textvar=scrval, font="lucida 30 bold")
+screen.pack(fill=X, padx=10,pady=20)
 
+
+fr1= Frame(root, bg="skyblue")
+btn= Button(fr1,text="C" , padx=15, pady=10,font="Times 30 bold")
+btn.pack(side=LEFT,padx=20,pady=20)
+btn.bind("<Button-1>",click)
+
+btn= Button(fr1,text="()" , padx=10, pady=10,font="Times 30 bold")
+btn.pack(side=LEFT,padx=20,pady=20)
+btn.bind("<Button-1>",click)
+
+btn= Button(fr1,text="%", padx=10, pady=10,font="Times 30 bold")
+btn.pack(side=LEFT,padx=20,pady=20)
+btn.bind("<Button-1>",click)
+
+btn= Button(fr1,text=" / ", padx=10, pady=10,font="Times 30 bold")
+btn.pack(side=LEFT,padx=20,pady=20)
+btn.bind("<Button-1>",click)
+fr1.pack()
+fr1= Frame(root, bg="skyblue")
+btn= Button(fr1,text="9", padx=15, pady=15,font="Times 30 bold")
+btn.pack(side=LEFT,padx=20,pady=20)
+btn.bind("<Button-1>",click)
+
+btn= Button(fr1,text="8", padx=15, pady=15,font="Times 30 bold")
+btn.pack(side=LEFT,padx=20,pady=20)
+btn.bind("<Button-1>",click)
+
+btn= Button(fr1,text="7", padx=15, pady=15,font="Times 30 bold")
+btn.pack(side=LEFT,padx=20,pady=20)
+btn.bind("<Button-1>",click)
+
+btn= Button(fr1,text="x", padx=18, pady=16,font="Times 30 bold")
+btn.pack(side=LEFT,padx=20,pady=20)
+btn.bind("<Button-1>",click)
+fr1.pack()
+
+fr1= Frame(root, bg="skyblue")
+btn= Button(fr1,text="6", padx=15, pady=15,font="Times 30 bold")
+btn.pack(side=LEFT,padx=20,pady=20)
+btn.bind("<Button-1>",click)
+
+btn= Button(fr1,text="5", padx=15, pady=15,font="Times 30 bold")
+btn.pack(side=LEFT,padx=20,pady=20)
+btn.bind("<Button-1>",click)
+
+btn= Button(fr1,text="4", padx=15, pady=15,font="Times 30 bold")
+btn.pack(side=LEFT,padx=20,pady=20)
+btn.bind("<Button-1>",click)
+
+btn= Button(fr1,text="-", padx=18, pady=18,font="Times 30 bold")
+btn.pack(side=LEFT,padx=20,pady=20)
+btn.bind("<Button-1>",click)
+fr1.pack()
+
+fr1= Frame(root, bg="skyblue")
+btn= Button(fr1,text="3" , padx=15, pady=15,font="Times 30 bold")
+btn.pack(side=LEFT,padx=20,pady=20)
+btn.bind("<Button-1>",click)
+
+btn= Button(fr1,text="2", padx=15, pady=15,font="Times 30 bold")
+btn.pack(side=LEFT,padx=20,pady=20)
+btn.bind("<Button-1>",click)
+
+btn= Button(fr1,text="1", padx=15, pady=15,font="Times 30 bold")
+btn.pack(side=LEFT,padx=20,pady=20)
+btn.bind("<Button-1>",click)
+
+btn= Button(fr1,text="+", padx=15, pady=15,font="Times 30 bold")
+btn.pack(side=LEFT,padx=20,pady=20)
+btn.bind("<Button-1>",click)
+fr1.pack()
+
+fr1= Frame(root, bg="skyblue")
+btn= Button(fr1,text="0" , padx=15, pady=15,font="Times 30 bold")
+btn.pack(side=LEFT,padx=20,pady=20)
+btn.bind("<Button-1>",click)
+
+btn= Button(fr1,text=".", padx=15, pady=15,font="Times 30 bold")
+btn.pack(side=LEFT,padx=20,pady=20)
+btn.bind("<Button-1>",click)
+
+btn= Button(fr1,text="X", padx=18, pady=18,font="Times 30 bold")
+btn.pack(side=LEFT,padx=20,pady=20)
+btn.bind("<Button-1>",click)
+
+btn= Button(fr1,text="=", padx=15, pady=15,font="Times 30 bold")
+btn.pack(side=LEFT,padx=20,pady=20)
+btn.bind("<Button-1>",click)
+fr1.pack()
+
+
+
+
+root.mainloop()
