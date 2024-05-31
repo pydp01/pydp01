@@ -1,14 +1,27 @@
 from tkinter import *
+import math
 root=Tk()
 root.minsize(500,800)
 root.maxsize(500,800)
 def click(event):
     global srcval
-    text= event.widget.cget("text")
-    if (text=="="):
+    text= event.widget.cget("text") 
+    if(text==str):
         pass
+    if (text=="="):
+        if scrval.get().isdigit():
+            value=int(scrval.get())
+        else:
+            value=eval(scrval.get())
+            scrval.set(value)
+            screen.update()
     elif(text=="C"):
         scrval.set("")
+        screen.update()
+    elif(text=="sq"):
+        value=float(scrval.get())
+        value=math.sqrt(value)
+        scrval.set(value)
         screen.update()
     else:
         scrval.set(scrval.get()+text)
@@ -18,17 +31,18 @@ scrval.set("")
 screen= Entry(root,textvar=scrval, font="lucida 30 bold")
 screen.pack(fill=X, padx=10,pady=20)
 
+root.title("Calculator")
 
 fr1= Frame(root, bg="skyblue")
 btn= Button(fr1,text="C" , padx=15, pady=10,font="Times 30 bold")
 btn.pack(side=LEFT,padx=20,pady=20)
 btn.bind("<Button-1>",click)
 
-btn= Button(fr1,text="()" , padx=10, pady=10,font="Times 30 bold")
+btn= Button(fr1,text="00" , padx=8, pady=8,font="Times 30 bold")
 btn.pack(side=LEFT,padx=20,pady=20)
 btn.bind("<Button-1>",click)
 
-btn= Button(fr1,text="%", padx=10, pady=10,font="Times 30 bold")
+btn= Button(fr1,text="%", padx=8, pady=8,font="Times 30 bold")
 btn.pack(side=LEFT,padx=20,pady=20)
 btn.bind("<Button-1>",click)
 
@@ -49,7 +63,7 @@ btn= Button(fr1,text="7", padx=15, pady=15,font="Times 30 bold")
 btn.pack(side=LEFT,padx=20,pady=20)
 btn.bind("<Button-1>",click)
 
-btn= Button(fr1,text="x", padx=18, pady=16,font="Times 30 bold")
+btn= Button(fr1,text="*", padx=18, pady=16,font="Times 30 bold")
 btn.pack(side=LEFT,padx=20,pady=20)
 btn.bind("<Button-1>",click)
 fr1.pack()
@@ -99,7 +113,7 @@ btn= Button(fr1,text=".", padx=15, pady=15,font="Times 30 bold")
 btn.pack(side=LEFT,padx=20,pady=20)
 btn.bind("<Button-1>",click)
 
-btn= Button(fr1,text="X", padx=18, pady=18,font="Times 30 bold")
+btn= Button(fr1,text="sq", padx=10, pady=10,font="Times 30 bold")
 btn.pack(side=LEFT,padx=20,pady=20)
 btn.bind("<Button-1>",click)
 
@@ -107,8 +121,6 @@ btn= Button(fr1,text="=", padx=15, pady=15,font="Times 30 bold")
 btn.pack(side=LEFT,padx=20,pady=20)
 btn.bind("<Button-1>",click)
 fr1.pack()
-
-
 
 
 root.mainloop()
