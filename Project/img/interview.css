@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(220, 189, 252);
+}
+.forvid1{
+    height: 400px;
+    width: 600px;
+    margin: 20px 350px 20px 380px;
+    border: 1px solid rgb(0,30,255);
+}
+.para{
+    padding: 0 50px 20px 50px;
+    text-align: justify;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+.p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    font-size: 20px;
+    padding: 20 70px 20px 70px;
+    color: white;
+    background-color: rgb(45, 9, 78);
+}
+h2{
+    text-align: center;
+    color: white;
+    background-color: rgb(45, 9, 78);
+    padding: 5px;
+
+}

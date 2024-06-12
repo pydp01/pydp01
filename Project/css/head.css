@@ -1,0 +1,112 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+ 
+::-webkit-scrollbar{
+	width: 10px;
+}
+::-webkit-scrollbar-track{
+    background-color: rgb(220, 189, 232);
+}
+::-webkit-scrollbar-thumb{
+	background-color: blueviolet;
+	width: 10px;
+	border-radius: 40px;
+}
+
+.main{
+	width: 100%;
+	height: 100%;
+}
+.nav{
+	width: 100%;
+	height: 70px;
+	margin: auto;
+	background-color: blueviolet;
+}
+.icon{
+	width: 200px;
+	float: left;
+	height: 70px;
+	padding-left: 40px;
+}
+.logo{
+	height: 60px;
+	width: 60px;
+	padding-left: 0px;
+	padding-top: 10px;
+	padding-bottom: 5px;
+}
+.menu{
+	float: left;
+	padding-left: 90px;	
+}
+nav{
+	float: left;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+}
+nav a{
+	list-style-type: none;
+	margin-left: 40px;
+	margin-top: 20px;
+	margin-right: 35px;
+}
+#c1{
+	background: blueviolet;
+	color: white;
+	font-family: Trebuchet MS;
+	font-size: 20px;
+	text-decoration: none;
+	padding: 10px;
+	padding-right: 30px;
+	margin-top: 5px;
+	border-radius: 40px;
+}
+#c2{
+	background: blueviolet;
+	color: white;	
+	font-family: Trebuchet MS;
+	font-size: 20px;
+	text-decoration: none;
+	padding: 10px;
+	padding-right: 30px;
+	margin-top: 5px;
+	border-radius: 40px;
+}
+#c3{
+	background: blueviolet;
+	color: white;	
+	font-family: Trebuchet MS;
+	font-size: 20px;
+	text-decoration: none;
+	padding: 10px;
+	padding-right: 30px;
+	margin-top: 5px;
+	border-radius: 40px;
+}
+#c4{
+	background: blueviolet;
+	color: white;	
+	font-size: 20px;
+	font-family: Trebuchet MS;
+	text-decoration: none;
+	padding: 10px;
+	padding-right: 30px;
+	margin-top: 5px;
+	border-radius: 40px;
+}
+#c5{
+	background: blueviolet;
+	color: white;	
+	font-size: 20px;
+	font-family: Trebuchet MS;
+	text-decoration: none;
+	padding: 10px;
+	margin-top: 5px;
+	padding-right: 30px;
+	border-radius: 40px;
+}

@@ -1,0 +1,65 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgb(220, 189, 252);
+}
+#forimg1{
+    height: 400px;
+    width: 1355px;
+}
+.para{
+    color: rgb(54, 26, 81);
+    font-size: 25px;
+    font-weight: bold;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 0px 15px 20px 15px;
+    text-align: justify;
+}
+.row1{
+    display: table;
+}
+.row2{
+    display: table;
+}
+.row3{
+    display: table;
+}
+#forvid1{
+    float: left;
+    margin: 0px  20px 20px 20px;
+    height: 400px;
+    width: 600px;
+}
+.divv{
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+    margin: 0 20px 0 20px;
+    padding: 40px 0  0 0;
+}
+#forvid{
+    float: right;
+    margin: 0px  20px 20px 20px;
+    height: 400px;
+    width: 600px;
+}
+#forvid3{
+    float: left;
+    margin: 0px  20px 20px 20px;
+    height: 400px;
+    width: 600px;
+}
+span{
+    background-color: blueviolet;
+    color: rgb(255, 255, 255);
+    padding: 5px;
+}
+.divv1{
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+    margin: 0 20px 0 20px;
+    padding: 40px 0  0 0;
+}

@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+span{
+    color: blueviolet;
+    font-size: 20px;
+    font-weight: 200;
+}
+body{
+    background-color: rgb(197, 154, 240);  
+    animation-name:blink;
+    animation-duration:2s;
+    animation-timing-function:ease-in;
+    animation-iteration-count:Infinite;
+}
+@keyframes blink{
+    0%{color: black;}
+    50%{color: rgba(0,0,0,.1)50%;}
+    100%{color: #000;}
+}
+#fdiv{
+    background-color:  rgb(223,224,251);
+    margin: 0px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    font-weight: medium;
+}
+#ffdiv{
+    padding-bottom: 20px;
+}
+#ffdiv p{
+    padding-top: 20px;
+}
+#fsdiv ul,li{
+    padding-left: 20px;
+    padding-top: 20px;
+}
+#rowcol{
+	display: table;
+    width: 1348px;
+    margin: 0 0 0 0;
+}
+.col1{
+background: linear-gradient(to right,rgb(151, 99, 188), rgb(175, 114, 232));
+color: white;
+float: left;
+height: 320px;
+width: 250px; 
+margin-top: 100px;
+margin-left: 15px;
+padding: 10px;
+}
+.col2{
+background: linear-gradient(to right,rgb(151, 99, 188), rgb(175, 114, 232));
+float: left;
+height: 500px;
+width: 250px; 
+margin-top: 250px;
+margin-left: 15px;
+padding: 10px;
+}
+.col3{
+background: linear-gradient(to right,rgb(151, 99, 188), rgb(175, 114, 232));
+float: left;
+height: 320px;
+width: 250px; 
+margin-top: 100px;
+margin-left: 15px;
+padding: 10px;
+}
+.col4{
+background: linear-gradient(to right,rgb(151, 99, 188), rgb(175, 114, 232));
+float: left;
+height: 500px;
+width: 250px; 
+margin-top: 250px;
+margin-left: 15px;
+padding: 10px;
+}
+.col5{
+background: linear-gradient(to right,rgb(151, 99, 188), rgb(175, 114, 232));
+color: white;
+float: left;
+height: 320px;
+width: 250px; 
+margin-top: 100px;
+margin-left: 20px;
+margin-right: 10px;
+padding: 10px;
+}
+#link{
+    padding-left: 1250px;
+    padding-bottom: 50px;
+}
+.ssdiv{
+    height: 850PX;
+    width: auto;
+    padding-left: 80px;
+    padding-top: 20px;
+    background-color:  rgb(223,224,251);
+    font-size: 20px;
+    font-weight: lighter;
+}
+.ssdiv img{
+    height: 300px;
+    width: 550px;
+    margin-left: 350px;
+    opacity: 0.7;
+    border: 3px solid black;
+}
+.ssdiv img:hover{
+    opacity: 1.0;
+}
+#fpara{
+    height: 500px;
+    width: 600px;
+    margin-top: 50px;
+    float: left;
+}
+#spara{
+    height: 500px;
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 600px;
+    float: left;
+}
+.tsdiv{
+    height: 550px;
+    width: 1200px;
+    font-size: 20px;
+    text-align: justify;
+    font-weight: lighter;
+    padding: 50px;
+    margin-top: 20px;
+    margin-left: 70px;
+    margin-bottom: 100px;
+    color: black;
+    background-color: rgb(202, 159, 243);
+}
+#imgts{
+    height: 400px;
+    width: 400px;
+    float: right;
+    margin-left: 20px;
+}
+#rowcols{
+	display: table;
+	padding-top: 20px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+    height: 1200px;
+    width: auto;
+    background-color: rgb(202, 159, 243);
+    color: black;
+}
+.cols1{
+    background-color:  rgb(223,224,251);    
+float: left;
+height: 500px;
+width: 500px; 
+padding: 10px;
+margin-left: 40px;
+margin-bottom: 20px;
+}
+.cols2{
+    background-color:  rgb(223,224,251);    
+float: left;
+height: 500px;
+width: 500px; 
+padding: 10px;
+margin-left: 200px;
+margin-bottom: 20px;
+}
+.cols3{
+    background-color:  rgb(223,224,251);    
+float: right;
+height: 500px;
+width: 500px; 
+padding: 10px;
+margin-right: 100px;
+}
+.cols4{
+    background-color:  rgb(223,224,251);    
+float: right;
+height: 500px;
+width: 500px;
+margin-right: 200px;
+padding: 10px;
+}
+.cols3 ul li img{
+    height: 200px;
+    width: 450px;
+}
+.footer{
+    height: 120px;
+    width: auto;
+    padding: 10px;
+    margin-bottom: 110px;
+}
+#pfoot{
+    color: blueviolet;
+    font-size: larger;
+    font-weight: 100;
+    box-sizing: border-box;
+    border: 3px solid blueviolet;
+    padding: 20px;
+    background-color: white;
+}
+h2{
+    color: white;
+    background-color: rgb(158, 82, 228);
+    padding: 10px;
+    margin: 0;
+}

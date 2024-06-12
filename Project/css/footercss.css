@@ -1,0 +1,39 @@
+
+.forbackend{
+	background-color: blueviolet;
+}
+.ending{
+	display: table;
+	color: white;
+	padding: 20px;
+	height: 250px;
+	width: auto;
+}
+#links a{
+	padding: 20px;
+	text-decoration: none;
+	color: white;
+	float: right;
+
+}
+#detail{
+	float: left;
+}
+#lastinfo{
+	background-image: linear-gradient(to left,rgba(0,0,0,0.4)50%,rgba(0,0,0,0.4)50%);
+	color: white;
+	height: 50px;
+	padding-left: 20px;
+}
+.icons a{
+	text-decoration: none;
+	color: blueviolet;
+	padding-right: 10px;
+}
+.icons ion-icon{
+	color: white;
+	font-size: 20px;
+}
+.icons ion-icon:hover{
+	color:  rgb(107, 109, 172);
+}

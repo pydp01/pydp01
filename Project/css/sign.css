@@ -1,0 +1,129 @@
+#bg{
+    background-color: rgb(120, 124, 230);
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: 100px;
+    
+input{
+    border-radius: 40px;
+}
+ }
+ 
+::-webkit-scrollbar{
+	width: 10px;
+}
+::-webkit-scrollbar-track{
+    background-color: rgb(220, 189, 232);
+}
+::-webkit-scrollbar-thumb{
+	background: rgb(105, 85, 194);
+	width: 10px;
+	border-radius: 40px;
+}
+
+h1{
+       padding-right: 0px;
+       color: white;
+       font-family: cursive;
+   }
+   div{
+       color: white;
+       font-size: 20px;
+   }
+   #i1{
+       margin-top: 10px ;
+       margin-bottom: 20px;
+       font-size: 20px;
+       width: 250px;
+   }
+   #i2{ 
+       margin-top: 10px ;
+       margin-bottom: 20px;
+       font-size: 20px;
+       margin-left: 13px;
+       width: 250px;
+   }
+   #i3{
+       margin-top: 10px ;
+       margin-bottom: 20px;
+       font-size: 20px;
+       margin-left: 50px;
+       width: 250px;
+   }
+   #i4{
+        margin-top: 10px ;
+        margin-bottom: 20px;
+        font-size: 20px;
+        margin-left: 62px;
+        width: 250px;
+   }
+   #i5{
+    margin-top: 10px ;
+    margin-bottom: 20px;
+    font-size: 20px;
+    width: 250px;
+   }
+   #i6{
+    margin-top: 10px ;
+    margin-bottom: 20px;
+    font-size: 20px;
+    width: 250px;    
+   }
+   
+   #i7{
+    margin-top: 10px ;
+    margin-bottom: 20px;
+    font-size: 20px;
+    width: 250px;    
+   }
+   .form{
+       background: linear-gradient(to top,rgba(0,0,0,.4)50%,rgba(0,0,0,.4)50%);
+       border-radius: 40px 50px;
+       padding-top: 50px;
+       padding-bottom: 20px;
+       padding-left: 90px;
+       font-family: 'Courier New', Courier, monospace;
+   }
+   .bts{
+       width: 150px;
+       height: 40px;
+       background: rgb(116, 99, 192);
+       border: none;
+       margin-top: 30px;
+       font-size: 18px;
+       border-radius: 40px;
+       cursor: pointer;
+       color: rgb(188, 190, 238);
+   }
+   .bts:hover{
+       background: rgb(120, 124, 230);
+       color: lavender;
+   }
+   .bts a{
+       text-decoration: none;
+       color:black;
+       font-weight: bold;
+   }
+   .lg{
+       padding-top: 15px;
+       padding-bottom: 10px;
+       padding-left: 80px;
+   }
+   #lg{
+       padding-top: 15px;
+       padding-bottom: 10px;
+       padding-left: 130px;
+   }
+   .icons a{
+       text-decoration: none;
+       color: blueviolet;
+   }
+   .icons ion-icon{
+       color: white;
+       font-size: 30px;
+       padding-left: 20px;
+       padding-top: 5px;
+   }
+   .icons ion-icon:hover{
+       color:  rgb(147, 149, 224);
+   }
